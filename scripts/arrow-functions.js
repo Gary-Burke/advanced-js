@@ -1,19 +1,18 @@
 // Vanilla JavaScript Function
-function addTowNumbers (a, b) {
-    return a+ b;
+function addTowNumbers(a, b) {
+    return a + b;
 }
-let sum = addTowNumbers(3 ,3);
+let sum = addTowNumbers(3, 3);
 console.log(sum);
 
 
 // Arrow Function With Parameters
 const addTwoNumbers2 = (a, b) => {
     // Code block
-    return a+ b;
+    return a + b;
 }
-let sum2 = addTwoNumbers2(3 ,5);
+let sum2 = addTwoNumbers2(3, 5);
 console.log(sum2);
-
 
 
 // Single Line Arrow Function With Parameters
@@ -23,14 +22,11 @@ let sum3 = addTwoNumbers3(6, 4);
 console.log(sum3);
 
 
-
 // Implicit Returns
 const saySomething = message => console.log(message);
 saySomething("Hi there!");
 
-
-const sayHello = () =>console.log("Hello");
-
+const sayHello = () => console.log("Hello");
 
 
 // Returning Multiple Lines
@@ -40,5 +36,3 @@ const returnMultipleLines = () => (
      <p>`
 )
 console.log(returnMultipleLines());
-
-
