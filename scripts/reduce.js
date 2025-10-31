@@ -28,8 +28,8 @@ const teamMembers = [
   }, 
     {
     name: 'Tommy',
-    profession: 'Designer',
-    yrsExperience: 3
+    profession: 'Manager',
+    yrsExperience: 10
   }
 ];
 
